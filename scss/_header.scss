@@ -1,0 +1,17 @@
+.menu-barra {
+  background-color: #224757;
+}
+
+.nav-item {
+  margin: 4px;
+  color: #15163d;
+  font-size: 16px;
+  border: 1px solid #e04c26;
+  border-radius: 10px;
+  background-color: #e9b4c5;
+  transition: 1s;
+
+  &:hover {
+    background-color: blueviolet;
+  }
+}
