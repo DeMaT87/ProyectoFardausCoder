@@ -52,6 +52,7 @@ main section p {
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
+  flex-direction: row;
 }
 .tarot-evo1 img {
   height: 400px;
@@ -95,8 +96,9 @@ main section p {
   margin-top: 40px;
   margin-bottom: 20px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 .psmi .imagen-sobremi {
   width: 50%;
@@ -188,8 +190,8 @@ main section div p {
 .servi-txt {
   margin-right: 40px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 .servi-txt p {
@@ -243,8 +245,8 @@ main section div p {
 .form {
   width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 .form .mb-3 {
@@ -292,9 +294,6 @@ main section div p {
   /****************** Sobre Mi ********************* */
   .psmi {
     flex-direction: column;
-  }
-  .sobre-mi p {
-    font-size: 14px;
   }
   .grid-galeria {
     margin-bottom: 60px;
