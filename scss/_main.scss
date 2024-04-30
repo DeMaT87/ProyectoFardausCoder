@@ -1,7 +1,7 @@
 .titulos-diferentes {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 48px;
-  color: #224757;
+  color: $color-primary;
 }
 
 main section img {
@@ -67,7 +67,7 @@ main section p {
 .psmi {
   height: 100%;
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: $margin-default;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,7 +90,7 @@ main section p {
 
     p {
       text-align: justify;
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 }
@@ -128,7 +128,7 @@ main section p {
 /* Servicios */
 
 .servi-titulo {
-  margin-top: 20px;
+  margin-top: $margin-default;
   text-align: center;
 }
 
@@ -176,18 +176,18 @@ main section div p {
   p {
     text-align: left;
     font-size: 20px;
-    padding-right: 20px;
+    padding-right: $margin-default;
   }
 
   button {
-    background-color: #224757;
+    background-color: $color-primary;
     border-radius: 15px;
     color: white;
     padding: 10px;
     transition: 0.5s;
 
     &:hover {
-      background-color: #e9b4c5;
+      background-color: $color-secondary;
     }
   }
 }
@@ -237,12 +237,12 @@ main section div p {
 
   .mb-3 {
     width: 20%;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: $margin-default;
+    margin-left: $margin-default;
   }
 
   .btn {
-    background-color: #224757;
+    background-color: $color-primary;
   }
 }
 
@@ -350,8 +350,8 @@ main section div p {
   }
 
   .servi-txt {
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: $margin-default;
+    margin-bottom: $margin-default;
     text-align: center;
 
     p {
@@ -373,18 +373,18 @@ main section div p {
 
   .form {
     width: 90%;
-    margin-top: 20px;
+    margin-top: $margin-default;
   }
 
   .mb-3 {
     width: 90%;
-    margin-top: 20px;
+    margin-top: $margin-default;
     margin-left: auto;
     margin-right: auto;
   }
 
   .btn {
     width: 90%;
-    margin-top: 20px;
+    margin-top: $margin-default;
   }
 }

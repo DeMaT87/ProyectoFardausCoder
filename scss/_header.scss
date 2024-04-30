@@ -1,5 +1,5 @@
 .menu-barra {
-  background-color: #224757;
+  background-color: $color-primary;
 }
 
 .nav-item {
@@ -8,7 +8,7 @@
   font-size: 16px;
   border: 1px solid #e04c26;
   border-radius: 10px;
-  background-color: #e9b4c5;
+  background-color: $color-secondary;
   transition: 1s;
 
   &:hover {
